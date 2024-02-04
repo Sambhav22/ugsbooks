@@ -340,6 +340,7 @@ header {
 }
 
 .headerbt {
+	padding: 18px 15px 5px 15px;
 	position: absolute;
 	width: 100%;
 	z-index: 1;
@@ -958,13 +959,14 @@ header {
 
 .navigation ul li a {
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
 	font: 14px/24px 'Roboto';
 	font-weight: 600;
 	padding: 15px 18px;
 	border-radius: 20px;
 	letter-spacing: 0.25px;
-	}
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 
 .navigation ul li a:hover {
 	color: #FD4D40;
