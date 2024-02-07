@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Makaan - Real Estate HTML Template</title>
+    <title>UGS Publications (P) Limited</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -37,6 +37,34 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .logo {
+        width: 63%;
+      }
+      @media screen and (max-width: 600px) {
+        .logo {
+          width: 80%;
+        }
+      }
+      @media screen and (max-width: 990px) {
+        .shop {
+          margin: 0.5rem;
+        }
+      }
+      @media screen and (min-width: 600px) and (max-width: 1000px) {
+        .logo {
+          width: 55%;
+        }
+      }
+      @media screen and (min-width: 1000px) and (max-width: 1200px) {
+        .logo {
+          width: 95%;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -62,16 +90,11 @@
           <a
             href="index.html"
             class="navbar-brand d-flex align-items-center text-center"
+            style="width: 70%"
           >
-            <div class="icon p-2 me-2">
-              <img
-                class="img-fluid"
-                src="img/icon-deal.png"
-                alt="Icon"
-                style="width: 30px; height: 30px"
-              />
+            <div>
+              <img class="img-fluid logo" src="img/icon-deal.png" alt="Icon" />
             </div>
-            <h1 class="m-0 text-primary">Makaan</h1>
           </a>
           <button
             type="button"
@@ -83,49 +106,67 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-              <a href="index.html" class="nav-item nav-link">Home</a>
-              <a href="about.html" class="nav-item nav-link">About</a>
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="#section2" class="nav-item nav-link">About</a>
               <div class="nav-item dropdown">
                 <a
                   href="#"
                   class="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  >Property</a
+                  >Our Series</a
                 >
                 <div class="dropdown-menu rounded-0 m-0">
-                  <a href="property-list.html" class="dropdown-item"
-                    >Property List</a
-                  >
                   <a href="englishmedium.html" class="dropdown-item"
-                    >Property Type</a
+                    >English Medium Books</a
                   >
-                  <a href="property-agent.html" class="dropdown-item"
-                    >Property Agent</a
+
+                  <a href="hindimedium.html" class="dropdown-item"
+                    >Hindi Medium Books</a
                   >
+                  <a href="sameversion.html" class="dropdown-item"
+                    >Same Version Books</a
+                  >
+
+                  <a href="semester.html" class="dropdown-item"
+                    >Semester Books</a
+                  >
+
+                  <a href="term.html" class="dropdown-item">Term Books</a>
+                  <a href="bags.html" class="dropdown-item"
+                    >Nursery, LKG, UKG Bags</a
+                  >
+                  <a href="sanskrit.html" class="dropdown-item">Sanskrit</a>
+                  <a href="urdu.html" class="dropdown-item">Urdu</a>
                 </div>
               </div>
               <div class="nav-item dropdown">
                 <a
                   href="#"
-                  class="nav-link dropdown-toggle active"
+                  class="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  >Pages</a
-                >
+                  >Resource center
+                </a>
                 <div class="dropdown-menu rounded-0 m-0">
-                  <a href="testimonial.html" class="dropdown-item"
-                    >Testimonial</a
+                  <a
+                    href="https://drive.google.com/drive/u/0/folders/13DjvqcvFmP686MN2FVTqRsUNQooCU8cK"
+                    target="_blank"
+                    class="dropdown-item"
+                    >Catalogue & Order Form (2024-25)</a
                   >
-                  <a href="404.html" class="dropdown-item active">404 Error</a>
                 </div>
               </div>
               <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-flex"
-              >Add Property</a
+            <a
+              href="https://www.innovatiqindia.com/"
+              target="_blank"
+              class="nav-item nav-link btn btn-primary px-3 d-lg-flex shop"
+              >Online Store</a
             >
           </div>
         </nav>
       </div>
+
       <!-- Navbar End -->
 
       <!-- Header Start -->
